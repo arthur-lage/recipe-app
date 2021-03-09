@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(103, 131, 156);
+}
+
+#title{
+    color: white;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.658);
+}
+
+#card{
+    margin-top: 2rem;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.5);
+    margin-left: 4rem;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+#card h1{
+    font-family: "Playfair Display", sans-serif;
+    color: black;
+    padding: 1rem;
+    font-size: 2.15rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+#card p{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0, .7);
+    padding: 1.5rem 0;
+}
+
+#card #food-image-div{
+    text-align: center;
+}
+
+#card img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.63);
+    border: rgb(65, 65, 65) solid 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+#new-recipe-button{
+    border-radius: 5px;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    color: black;
+    transition: 0.25s ease;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    outline: none;
+}
+
+#new-recipe-button:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+#card h3{
+    text-align: center;
+}
+
+#recipe-video{
+    text-align: center;
+}
+
+#iframe{
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 1.25rem;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    text-align: center;
+    color: black;
+    font-family: "Open Sans";
+}
